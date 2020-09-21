@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    database: POSTGRESQL
+
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://192.168.1.5:5432/poc
+    username: folha_owner
+    password: 31rArkDvTNSNgCtp
