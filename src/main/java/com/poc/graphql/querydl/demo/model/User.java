@@ -14,7 +14,7 @@ import java.io.Serializable;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class User implements Serializable {
+public class User extends AbstractModel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -31,4 +31,7 @@ public class User implements Serializable {
 
     @Column()
     private Integer age;
+
+    @Column()
+    protected Integer empresaId;
 }

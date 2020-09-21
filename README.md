@@ -3,3 +3,4 @@ with spring boot
 
 # Requisitos
 - repositorio generico [ok]
+- Querydsl [ok]
